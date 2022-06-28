@@ -1,0 +1,24 @@
+.header_text {
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+.subheader_text {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+@media (min-width: 320px) {
+  .header_text {
+    font-size: 30px;
+  }
+}
+@media (min-width: 990px) {
+  .header_text {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .header_text {
+    font-size: 60px;
+  }
+}

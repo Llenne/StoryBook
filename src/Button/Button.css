@@ -1,0 +1,10 @@
+.btn {
+  font-family: 'gilroy-b';
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 0;
+  padding: 15px 40px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+}

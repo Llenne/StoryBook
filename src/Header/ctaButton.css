@@ -1,0 +1,37 @@
+.ctaButton {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 33px;
+  background: linear-gradient(94.24deg, #f7971c -2.62%, #f76c1c 109.35%);
+  color: #ffffff;
+  border-radius: 999px;
+  font-family: 'gilroy-b';
+  z-index: 1;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+}
+/* .ctaButton::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  background-color: #2499ff;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #ffffff;
+} */
+
+.ctaButton::after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(94.24deg, #f7971c -2.62%, #f76c1c 109.35%);
+  border-radius: 999px;
+  left: -4%;
+  top: -8%;
+  width: 108%;
+  height: 116%;
+  z-index: -1;
+}

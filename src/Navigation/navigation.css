@@ -1,0 +1,31 @@
+.navList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navList li .navLink {
+  text-transform: uppercase;
+  color: #141414;
+  text-decoration: none;
+  font-family: 'gilroy-l';
+  font-weight: 900;
+}
+
+@media (min-width: 320px) {
+  .navList li .navLink {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .navList li .navLink {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .navList li .navLink {
+    font-size: 16px;
+  }
+}

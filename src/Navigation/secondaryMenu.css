@@ -1,0 +1,26 @@
+.navList.secondary_menu li .navLink {
+  text-transform: capitalize;
+  color: #2499ff;
+  text-decoration: none;
+  font-family: 'gilroy-l';
+  font-weight: 900;
+}
+
+@media (min-width: 320px) {
+  .navList li .navLink {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .navList li .navLink {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .navList li .navLink {
+    font-size: 16px;
+  }
+  .secondary-nav {
+    margin-top: 15px;
+  }
+}

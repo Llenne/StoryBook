@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'gilroy-b';
+  src: url('../src/Assets/gilroy-extrabold-webfont.woff2') format('woff2'),
+    url('../src/Assets/gilroy-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gilroy-l';
+  src: url('../src/Assets/gilroy-light-webfont.woff2') format('woff2'),
+    url('../src/Assets/gilroy-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'gilroy-l';
+}
+body {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'gilroy-b';
+}
+
+.sb-show-main.sb-main-padded {
+  padding: 0;
+}
